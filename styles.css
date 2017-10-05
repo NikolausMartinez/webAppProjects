@@ -1,0 +1,58 @@
+
+p   {
+    /* Content - Width and Height */
+
+    width: 50%;
+
+    /* Border */
+
+    border: 2px solid blue;
+
+    /* Padding */
+
+    padding-left: 40px;
+
+    /* Margin */
+
+    margin: 50px 20px;
+
+    /* Font-Family */
+
+    font-family: Arial;
+}
+
+h1  {
+    font-family: Georgia;
+}
+/* Font-Size */
+h1  {
+    font-size: 50px ;
+}
+
+span    {
+    font-size: 2.0em;
+}
+/* Font-Weight */
+p{
+    font-weight: bold;
+}
+/* Font-Height */
+p{
+    line-height: 1.5;
+}
+/* Font-Align */
+h1  {
+    text-align: left;
+}
+p   {
+    text-align: left;
+}
+/* Font-Decoration */
+p   {
+    text-decoration: no-underline;
+}
+h1  {
+    text-decoration: no-line-through;
+}
+
+

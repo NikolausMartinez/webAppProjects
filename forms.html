@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<!-- action- where the form sends data to -->
+	<!-- method- where HTTP method (get/post) -->
+<form>
+
+	<div>
+		<label>
+			First Name:
+			<input type="text" required>
+		</label>
+		<label>
+			Last Name:
+			<input type="text" required>
+		</label>
+	<div>
+
+	<div>
+		<label for="male">Male</label>
+		<input name="gender" id="male" type="radio" value="MALE">
+		<label for="female">Female</label>
+		<input name="gender" id="female" type="radio" value="FEMALE">
+		<label for="other">Other</label>
+		<input name="gender" id="other" type="radio" value="OTHER">
+	</div>
+
+	<div>
+		<label>
+			Email:
+			<input name="username" type="email" placeholder="email" required>
+		</label>
+		<label>
+			Password:
+			<input name="password "type="password" placeholder="password" required>
+	</label>
+	</div>
+
+	<div>
+		<label>
+		Birthday:
+		<select name="birthday">
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+		</select>
+		<select name="birthday">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+		</select>
+		<select name="birthday">
+			<option>1990</option>
+			<option>1989</option>
+			<option>1988</option>
+		</select>	
+	</label>
+	</div>
+
+	<div>
+		<label>
+		I agree to the terms and conditions
+		<input type="checkbox">
+	</label>
+	</div>
+
+	
+	<input type="submit">
+</form>
+
+
+</body>
+</html>
